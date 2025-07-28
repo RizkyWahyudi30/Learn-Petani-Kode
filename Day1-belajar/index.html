@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day-1 Belajar HTML</title>
+  </head>
+  <body>
+    <h1>Day 1 Belajar HTML</h1>
+    <p>
+      Di day 1 saya akan belajar tentang HTML dan sedikit style di dalam tag nya
+    </p>
+    <p>
+      Saya akan belajar membuat paragraf dengan beberapa tag tag yang sekiranya
+      sering digunakan
+    </p>
+    <hr />
+    <!-- Memasuki Materi -->
+    <p style="text-align: center">
+      <!-- berikut attribute untuk paragraf -->
+      <!-- lalu jika menggunakan inline css -->
+      Ini adalah paragraf yang berisi beberapa kalimat. Saya sedang belajar HTML
+      di website Petani Kode. Saat ini sedang belajar tentang "Membuat Paragraf
+      di HTML"
+    </p>
+    <p style="text-align: right">
+      Paragraf adaalah kumpulan dari beberapa kalimat yang saling mendukung.
+      Punya ide pokok sebagai dasar dari paragraf itu sendiri
+    </p>
+    <p style="text-align: left">
+      tag paragraf juga sangat sering digunakan, bahkan selalu digunakan untuk
+      menuliskan kode untuk membangun sebuah website sederhana seperti ini,
+      biasanya untuk menjelaskan apa yang ingin kita tulis, seperti apa isi dari
+      website tersebut
+    </p>
+    <hr />
+
+    <!-- selanjutnya tag br -->
+    <p>
+      Setelah mengenal tag paragraf, selanjutnya kita mengenal tag untuk
+      membantu paragraf, tag ini adalah tag br. Fungsi utama dari tag br adalah
+      untuk membuat baris baru. Misalkan:
+    </p>
+    <p>Kita akan membuat pantun:</p>
+    <!-- hapus tag br jika ingin melihat perbedaan -->
+    <p>
+      Rambut berantakan tak pernah disisir <br />
+      Orang melihat tertawa kesenangan <br />
+      Pengangguran berserakan seperti pasir <br />
+      Kurang usaha dan keterampilan <br />
+    </p>
+    <p>maka hasilnya akan biasa saja</p>
+    <p>berbeda jika menggunakan tag br</p>
+    <hr />
+
+    <!-- selanjutnya tag pre -->
+    <p>Selanjutnya kita akan membahas tag yang cukup umum</p>
+    <p>
+      Pada kasus tertentu, kita ingin menampilkan paragraf dengan format yang
+      lebih spesifik. Contohnya seperti pantun dan puisi yang paragrafnya
+      ditulis dengan garis baru dan juga indentasi.
+    </p>
+    <p>
+      Hal ini bisa dilakukan dengan bantuan tag br. Namun ada juga tag lain yang
+      bisa jadi alternatif, yakni tag pre. Contoh:
+    </p>
+
+    <h1>Hujan Bulan Juni</h1>
+    <p>Oleh Separdi Djoko Mono</p>
+    <pre>
+        tak ada yang lebih tabah
+        dari hujan bulan Juni 
+        dirahasiakannya rintik rindunya
+        kepada pohon berbunga itu 
+
+            tak ada yang lebih bijak
+            dari hujan bulan Juni
+            dihapusnya jejak-jejak kakinya
+            yang ragu-ragu dijalan itu
+
+        tak ada yang lebih arif
+        dari hujan bulan Juni 
+        dibiarkannya yang tak terucap
+        diserap akar pohon bunga itu 
+    </pre>
+    <hr />
+
+    <!-- penggunaan tag div -->
+    <p>Selanjutnya kita akan membahas tentang tag div</p>
+    <p>
+      Tag p dan Tag div, memiliki perilaku yang hampir sama. Tapi tag div
+      sebenarnya bukanlah tag untuk membuat paragraf, melainkan tag untuk
+      membuat layout web. Kadang tag sering ‘disalahgunakan’ untuk membuat
+      paragraf.
+    </p>
+    <p>
+      Tag biasanya digunakan untuk membungkus teks yang ada di luar artikel.
+      Contoh seperti teks pada footer, header, sidebar, dll. Contoh :
+    </p>
+    <!-- contoh -->
+    <div class="header">
+      <h1>Header Website</h1>
+      <p>Ini adalah header dari website yang sedang saya buat</p>
+      <p>
+        Ini adalah sebuah paragraf yang berisi beberapa kalimat. Saya sedang
+        belajar HTML di Petani Kode. Saat ini Sedang, Belajar tentang paragraf.
+      </p>
+      <p>
+        Paragraf adalah kumpulan dari beberapa kalimat yang saling mendukung.
+        Punya ide pokok sebagai dasar dari paragraf itu sendiri.
+      </p>
+    </div>
+    <footer>
+      <div>&copy; 2020 Belajar HTML by Petani Kode</div>
+    </footer>
+    <hr />
+
+    <!-- Materi Text Formatting -->
+    <h3>Membuat Text Tebal</h3>
+    <p>
+      Untuk membuat teks tebal <strong>bisa menggunakan tag strong</strong>,
+      jika tidak ingin menggunakan tag strong, maka
+      <b>bisa menggunakan tag bold</b>. Keduanya tidak memiliki perbedaan
+      spesifik, perbedaan nya hanya dari histori nya saja
+    </p>
+
+    <h3>Membuat Teks Miring</h3>
+    Gunakan <i>teks miring</i> untuk memberikan penekanan pada teks, sehingga
+    akan <em>menarik perhatian</em> pembaca. Biasanya digunakan pada
+    <i>istilah asing</i> atau kata serapan dari <em>bahasa daerah</em>.
+
+    <h3>Membuat Garis Bawah Pada Text</h3>
+    <p>
+      Sama halnya, untuk membuat
+      <u>garis bawah pada teks bisa menggunakan tag u</u> ataupun jika tidak
+      menggunakan tag u, bisa <ins>menggunakan tag ins</ins>
+    </p>
+
+    <h3>Membuat Teks tercoret</h3>
+    <p>
+      Coretlah teks yang tidak <s>dibutuhkan</s> terpakai, ini bisa memberitahu
+      pembaca tentang perbaikan dari teks tersebut. Kadang juga teks
+      <del>tercoret</del> <ins>yang dicoret</ins>, diperbaiki dengan menambahkan
+      teks dengan garis bawah.
+    </p>
+
+    <h3>Membuat Pangkat</h3>
+    <p>
+      Pangkat biasanya digunakan pada rumus. Ada dua jenis pangkat yang bisa
+      dibuat di HTML, yakni pangkat yang berada di atas
+      <sup>(superscript) dengan tag sup </sup>dan yang satu nya yakni
+      <sub>pangkat di bawah (subscript)</sub>.
+    </p>
+
+    <h3>Membuat Marker untuk Teks</h3>
+    <p>
+      Membuat marker atau penanda pada teks
+      <mark>untuk menandai bahwa ini adalah tag mark</mark> dan untuk background
+      dari
+      <mark style="background-color: red"
+        >tag mark nya bisa kita setting sendiri</mark
+      >
+    </p>
+    <hr />
+
+    <!-- Membuat Tag Link -->
+    <h2>Tag Link</h2>
+    <p>
+      Kegunaan dari tag link ini sangat banyak, kita bisa mengakses file lain,
+      website lain dan lain lainnya lewat dari teks, jika kita menekan teks nya,
+      maka kita akan diarahkan ke link nya itu
+    </p>
+    <p>
+      contohnya:
+      <a href="https://www.petanikode.com">Website Petani Kode</a> dan jika kita
+      ingin ketika linknya dibuka di tab baru, kita bisa menambahkan attribute
+      pada tag a, yaitu __blank, contohnya:
+      <a href="https://www.petanikode.com" target="_blank"
+        >Website Petani Kode dengan Tab Baru</a
+      >
+    </p>
+  </body>
+</html>
