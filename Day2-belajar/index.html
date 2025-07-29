@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day - 2 Belajar HTML | Source Petani Kode</title>
+  </head>
+  <body>
+    <h1>Day - 2 Belajar HTML</h1>
+    <p>
+      Di day 2 ini, kita akan belajar beberapa materi tambahan terkait materi
+      yang sudah kita pelajari di Day 1 kemarin
+    </p>
+    <p>Materi nya: Menampilkan Gambar</p>
+    <hr />
+
+    <h2>Kita akan menampilkan gambar</h2>
+    <p>
+      Untuk menampilkan gambar pada website, kita bisa melakukannya dengan tag
+      img. Berikut adalah penggunaannya:
+    </p>
+    <p>Kita juga bisa mengatur ukurannya</p>
+    <img src="../image/ukuran-1-1.jpeg" alt="Ukuran 1:1" width="20%" />
+    <img src="../image/ukuran-16-9.jpeg" alt="ukuran 16:9" width="20%" />
+    <img src="../image/ukuran-4-5.jpeg" alt="ukuran 4:5" width="20%" />
+    <img src="../image/ukuran4-3.jpeg" alt="ukuran 4:3" width="20%" />
+
+    <hr />
+    <p>
+      Dan selanjutnya kita juga akan belajar tentang tag figure dan figcaption,
+      berikut contohnya:
+    </p>
+    <p>Berikut ini adalah gambarnya:</p>
+    <figure>
+      <img src="../image/ukuran-16-9.jpeg" alt="" width="20%" />
+      <figcaption>Contoh gambar ukuran 16:9</figcaption>
+    </figure>
+    <hr />
+
+    <!-- Membuat list pada HTML -->
+    <h2>Membuat list di HTML</h2>
+    <p>
+      Untuk membuat list, kita bisa menggunakan tag li, tetapi sebelum itu, tag
+      li kita bungkus dengan tag ul / ol. Nah apa perbedaannya? Mari kita lihat
+    </p>
+
+    <ol>
+      <li>Lorem</li>
+      <li>dolor</li>
+      <li>sit</li>
+      <li>amet</li>
+    </ol>
+
+    <p>
+      list diatas menggunakan bungkus tag ol, dengan tag ol, list tersebut akan
+      berurut dengan berbentuk angka. Tapi kita bisa juga menggantinya dengan
+      alfabet besar maupun kecil, angka romawi besar dan kecil
+    </p>
+
+    <p>List dengan type alfabet</p>
+    <ol type="a">
+      <li>Tutorial List di HTML</li>
+      <li>Tutorial Link di HTML</li>
+      <li>Tutorial Tabel di HTML</li>
+    </ol>
+    <p>List dengan type alfabet kapital (huruf besar)</p>
+    <ol type="A">
+      <li>Tutorial List di HTML</li>
+      <li>Tutorial Link di HTML</li>
+      <li>Tutorial Tabel di HTML</li>
+    </ol>
+    <p>List dengan type romawi</p>
+    <ol type="i">
+      <li>Tutorial List di HTML</li>
+      <li>Tutorial Link di HTML</li>
+      <li>Tutorial Tabel di HTML</li>
+    </ol>
+    <p>List dengan type romawi kapital</p>
+    <ol type="I">
+      <li>Tutorial List di HTML</li>
+      <li>Tutorial Link di HTML</li>
+      <li>Tutorial Tabel di HTML</li>
+    </ol>
+    <hr />
+
+    <p>
+      Selanjutnya kita akan membahas tag yang satunya, simpelnya tag ul tidak
+      memakai angka, tetapi makai simbol
+    </p>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>Javascript</li>
+      <li>PHP</li>
+      <li>Java</li>
+    </ul>
+
+    <p>Dan simbolnya ini bisa diubah, menjadi beberapa ini:</p>
+    <p>Bahasa Pemrograman untuk dipelajari: (Dengan type "square")</p>
+    <ul type="square">
+      <li>Javascript</li>
+      <li>PHP</li>
+      <li>Java</li>
+      <li>Python</li>
+      <li>Kotlin</li>
+    </ul>
+    <p>Framework untuk dipelajari: (Dengan type "circle")</p>
+    <ul type="circle">
+      <li>Vuejs</li>
+      <li>Svelte</li>
+      <li>Reactjs</li>
+    </ul>
+    <p>Tools untuk dipelajari: (Dengan type "none" tidak ada)</p>
+    <ul type="none">
+      <li>Gulp</li>
+      <li>NPM</li>
+      <li>Js Lint</li>
+    </ul>
+    <p>Pelajari juga: (Dengan type disc atau default)</p>
+    <ul type="disc">
+      <li>JSON</li>
+      <li>XML</li>
+      <li>Markdown</li>
+    </ul>
+
+    <p>
+      Selain itu, kita bisa menggunakan gambar sebagai pengganti simbol list
+      nya:
+    </p>
+    <ul
+      style="
+        list-style-image: url(https://assets.ubuntu.com/sites/ubuntu/latest/u/img/favicon.ico);
+      "
+    >
+      <li>Javascript</li>
+      <li>PHP</li>
+      <li>Dart</li>
+      <li>Kotlin</li>
+      <li>Swift</li>
+      <li>Java</li>
+    </ul>
+    <hr />
+    <!-- description list -->
+    <p>Description List di HTML</p>
+    <p>
+      pada materi list, kita akan membahas tentang description list. Singkatnya,
+      description list adalah liat yang berisi deskripsi atau penjelasan dari
+      sesuatu
+    </p>
+    <p>
+      Ada tiga tag yang digunakan untuk membuat description list: dl, dt dan dd.
+      Contohnya
+    </p>
+    <dl>
+      <dt>Kopi</dt>
+      <dd>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem,
+        commodi.
+      </dd>
+      <dt>Susu</dt>
+      <dd>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium,
+        tempore.
+      </dd>
+      <dt>Air putih</dt>
+      <dd>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur,
+        quasi?
+      </dd>
+    </dl>
+
+    <hr />
+    <p>Selanjutnnya kita akan membahas nested list</p>
+    <ol>
+      <li>
+        Javascript
+        <ul>
+          <li>NextJs</li>
+          <li>ReactJs</li>
+          <li>VueJs</li>
+          <li>NodeJs</li>
+        </ul>
+      </li>
+      <li>
+        Python
+        <ul>
+          <li>Flask</li>
+          <li>PyTorch</li>
+        </ul>
+      </li>
+      <li>Java</li>
+    </ol>
+    <hr />
+
+    <!-- Membuat Tabel di HTML -->
+    <h2>Membuat Tabel</h2>
+    <p>
+      Setelah materi diatas, selanjutnya kita akan membahas tentang cara membuat
+      table di HTML. Berikut caranya:
+    </p>
+    <p>
+      Sebelum masuk ke materinya, ada beberapa tag tabel, yaitu: table, thead,
+      tbody, tr, td, th
+    </p>
+    <table border="1" cellpadding="5">
+      <tr>
+        <td bgcolor="yellow">Baris 1 kolom 1</td>
+        <td bgcolor="purple">Baris 1 kolom 2</td>
+      </tr>
+      <tr>
+        <td>Baris 2 kolom 1</td>
+        <td bgcolor="lightgreen">Baris 2 kolom 2</td>
+      </tr>
+      <tr bgcolor="lightblue">
+        <td>Baris 3 kolom 1</td>
+        <td>Baris 3 kolom 2</td>
+      </tr>
+      <p>
+        Kita juga bisa mengatur teks dengan jarak garis, yaitu : menggunakan
+        cellpading
+      </p>
+      <p>Kita juga bisa menambahkan warna pada sel dan baris</p>
+    </table>
+    <hr />
+    <p>
+      Menggabungkan sel tabel, bisa menggunakan rowspan = untuk menggabungkan
+      baris dan colspan = untuk menggabungkan kolom
+    </p>
+    <table border="1" cellpadding="5">
+      <thead>
+        <tr>
+          <th rowspan="2" bgcolor="yellow">Bulan</th>
+          <th colspan="4" bgcolor="#DDDEAB">Hasil Panen</th>
+        </tr>
+        <tr>
+          <th>Padi</th>
+          <th>Kacang</th>
+          <th>Jagung</th>
+          <th>Ubi</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Januari</td>
+          <td>100kg</td>
+          <td>200kg</td>
+          <td>50kg</td>
+          <td>150kg</td>
+        </tr>
+        <tr>
+          <td>Februari</td>
+          <td>200kg</td>
+          <td>110kg</td>
+          <td>60kg</td>
+          <td>70kg</td>
+        </tr>
+        <tr>
+          <td>Maret</td>
+          <td>230kg</td>
+          <td>200kg</td>
+          <td>120kg</td>
+          <td>190kg</td>
+        </tr>
+        <tr>
+          <td>April</td>
+          <td>230kg</td>
+          <td>200kg</td>
+          <td>450kg</td>
+          <td>250kg</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
