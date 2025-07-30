@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day 3 | Belajar HTML</title>
+  </head>
+  <body>
+    <h1>Day 3 Belajar HTML Dasar</h1>
+    <p>
+      Sekarang sudah day 3 Belajar HTML DASAR. Di hari ketiga ini kita akan
+      membahas beberapa materi terkait tag tag dasar html
+    </p>
+    <p>Berikut materi nya: Membuat form,</p>
+    <hr />
+
+    <!-- Membuat Form -->
+    <h3>Contoh dasar</h3>
+    <p>Kita bisa membuat form seperti ini:</p>
+    <form action="" method="">
+      <fieldset>
+        <legend>Login</legend>
+
+        <p>
+          <label for="">Name:</label>
+          <input type="text" name="name" id="name" />
+        </p>
+
+        <p>
+          <label for="">Oldes:</label>
+          <input type="text" name="oldes" id="oldes" />
+        </p>
+
+        <input
+          type="submit"
+          name="submit"
+          id="submit"
+          value="Submit your answer"
+        />
+      </fieldset>
+    </form>
+
+    <p>Membuat form kontak</p>
+    <form action="" method="">
+      <fieldset>
+        <legend>Contact</legend>
+        <p>
+          <label for="name">Name:</label>
+          <input type="text" name="name" id="name" placeholder="your name" />
+        </p>
+
+        <p>
+          <label for="subject">Subject</label>
+          <input
+            type="text"
+            name="subject"
+            id="subject"
+            placeholder="your subject"
+          />
+        </p>
+
+        <p>
+          <label for="email">Email:</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="your email"
+          />
+        </p>
+
+        <input type="submit" value="send" />
+      </fieldset>
+    </form>
+
+    <p>Sekarang latihan membuat form Registrasi</p>
+    <form action="" method="">
+      <fieldset>
+        <legend>Register</legend>
+
+        <p>
+          <label for="name">Name:</label>
+          <input type="text" name="name" id="name" placeholder="is name" />
+        </p>
+
+        <p>
+          <label for="usn">Username:</label>
+          <input type="text" name="usn" id="usn" placeholder="is useername" />
+        </p>
+
+        <p>
+          <label for="email">Email:</label>
+          <input type="email" name="email" id="email" placeholder="is email" />
+        </p>
+
+        <p>
+          <label for="password">Password:</label>
+          <input
+            type="password"
+            name="pass"
+            id="pass"
+            placeholder="is password"
+          />
+        </p>
+
+        <p>
+          <label for="agama">Jenis kelamin:</label>
+          <label>
+            <input type="radio" name="jenis-kelamin" />Laki - laki
+          </label>
+          <label><input type="radio" name="jenis-kelamin" />Perempuan </label>
+        </p>
+
+        <p>
+          <label for="select">Select</label>
+          <select name="select" id="select">
+            <option value="Islam">Islam</option>
+            <option value="Kristen">Kristen</option>
+            <option value="Hindu">Hindu</option>
+          </select>
+        </p>
+
+        <p>
+          <label for="biografi">Biografi</label>
+          <textarea name="biografi" id="biografi"></textarea>
+        </p>
+
+        <p>
+          <input type="submit" value="submit" />
+        </p>
+      </fieldset>
+    </form>
+
+    <p>Sekarang kita ke tahap lanjut, menggunakan type url, date, number</p>
+    <form action="" method="">
+      <fieldset>
+        <legend>Form</legend>
+
+        <p>
+          <label for="url-web">Alamat URL:</label>
+          <input type="url" name="url-web" id="url-web" placeholder="is url" />
+        </p>
+
+        <p>
+          <label for="tanggal-lahir">Tanggal Lahir:</label>
+          <input type="date" name="tanggal-lahir" id="tanggal-lahir" />
+        </p>
+
+        <p>
+          <label for="umur">Umur:</label>
+          <input type="number" name="umur" id="umur" placeholder="is umur" />
+        </p>
+
+        <p>
+          <input type="submit" value="submit" />
+        </p>
+      </fieldset>
+    </form>
+  </body>
+</html>
